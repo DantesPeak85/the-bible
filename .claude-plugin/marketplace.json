@@ -1,10 +1,13 @@
 {
   "name": "the-bible",
   "description": "Project documentation system — creates and maintains a Bible (single source of truth) for any codebase with automated change triage, targeted updates, and CLAUDE.md sync.",
-  "version": "1.0.0",
-  "plugins": {
-    "the-bible": {
-      "skills": ["bible-init", "bible-update", "bible-status"]
+  "owner": { "name": "DantesPeak85" },
+  "plugins": [
+    {
+      "name": "the-bible",
+      "description": "Comprehensive project documentation with automated change triage and CLAUDE.md sync.",
+      "version": "1.0.0",
+      "source": "./"
     }
-  }
+  ]
 }
